@@ -1,0 +1,13 @@
+.main-body{
+    background-color: rgb(92, 241, 241);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+}
+.login-button{
+    text-align: center;
+}
