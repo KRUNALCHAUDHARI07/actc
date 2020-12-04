@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const TG = require('telegram-bot-api')
+
+const api= new TG({
+  token : '1351077662:AAHdUwX4N0HpgqgUkh18h44XYtU-E5v4ZGs'
+})
+
+api.getMe()
+.then(console.log)
+.catch(console.error)
 ReactDOM.render(
   <React.StrictMode>
     <App />
